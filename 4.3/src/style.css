@@ -1,0 +1,9 @@
+.profil {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: burlywood;
+}
