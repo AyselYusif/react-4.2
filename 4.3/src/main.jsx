@@ -1,10 +1,14 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import Profile from "./Profile";
-import "./style.css";
+import UserCv from "./UserCV";
+import "./user.css";
 class App extends Component {
   render() {
-    return <Profile />;
+    return (
+      <div className="user-cv">
+        <UserCv />
+      </div>
+    );
   }
 }
 
